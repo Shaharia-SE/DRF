@@ -6,4 +6,4 @@ class MovieSerializer(serializers.ModelSerializer):
     # json respon
     class Meta:
         model = MovieData
-        fields = ['id', 'name', 'duration', 'rating']
+        fields = ['id', 'name', 'duration', 'rating','typ']
